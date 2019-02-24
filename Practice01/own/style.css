@@ -1,0 +1,12 @@
+.topic{border:1px solid blue; text-decoration:underline; text-align: center}
+.box{width:50px; height:50px}
+.paragraph{padding:10px; border:1px dashed #888888}
+table{width:400px; padding:10px;  border:1px solid blue; border-collapse: collapse}
+td{border:1px solid blue ;padding 10px;}
+th{background-color: antiquewhite}
+tr:nth-child(even){background-color: aliceblue}
+body{font-family: cursive}
+.content{border:1px solid blue; width 500px; margin-left: auto; margin-right: auto}
+.section{width: 280px; padding: 10px; margin: 10px; display:inline-block;vertical-align: top;}
+.sectionl{width: 300px; padding: 10px; margin: 10px; display:inline-block;vertical-align: top;}
+.point{background-color: antiquewhite}
