@@ -1,66 +1,66 @@
-*:not(blockquote) {
-    margin: 0;
-    padding: 0;
-    font-family: "Source Sans Pro", sans-serif;
+body{
+    background-color: rgb(170, 165, 138);
+    font-family: 'Signika', sans-serif;
+    margin: 20px 100px 20px 100px;
+}
+.Page{
+    background-color: rgb(212, 214, 214);
+    padding: 10px;
 }
 
-.logo {
-    max-width: 50px;
-    margin: 5px 10px;
+#Header{
+    /* background-attachment: fixed; */
+    background-color: bisque;
+    padding: 2%;
+    display: inline-block;
+    border: 10px solid;
+    text-align: center;
 }
 
-.nav-bar-name {
-    display: flex;
-    width: 100vw;
-    color: #dbe7eb;
-    flex-direction: column;
-    align-items: center;
-}
-.nav-bar-ID {
-    display: flex;
-    width: 100px;
-    color: #003C9D;
-    align-items: right;
-}
-.nav-bar {
-    background: #242424;
-    color: #eeeeee;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px;
-    position: sticky;
-    top: 0;
-    height: 40px;
-    z-index: 1;
+#Maincontent{
+    
 }
 
-.ending {
-    background: #FF44AA;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 24px;
-    position: sticky;
-    top: 0;
-    height: 40px;
-    z-index: 1;
+#Maincontent blockquote{
+    color: rgb(236, 46, 236);
+    font-size: 20px;
+    font-style: italic;
+} 
+.Img{
+    margin: 10px 0px 0px 25px;
 }
-.main {
-    margin: auto;
-    padding: 10px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background: #eeeeee;
+img {
+    border: 10px solid rgb(26, 23, 23);
+    border-radius: 20px;
+    padding: 10px;
+}
+.Input{
+
+    margin-left: 450px;
 }
 
-.post {
-    width: 700px;
-    margin: 10px;
-    background: white;
-    padding: 20px;
+input{
+    border: 2px solid gray;
     border-radius: 5px;
+    transition: 1s;
+    width: 150px;
+    height: 30px;
+}
+
+input:focus { 
+    width: 250px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table{
+    width: 100%;
+    border-radius: 10px;
+}
+
+a:hover{
+    color: orange;
 }
 
