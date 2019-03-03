@@ -1,0 +1,133 @@
+* {
+  font-family: 'Mali', cursive;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: #e6ddd2;
+}
+
+#full-display {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: opacity .5s;
+  -webkit-transition: opacity .5s;
+  z-index: 2;
+}
+
+.content-wrapper {
+  height: 100%;
+  transition: opacity .5s;
+  -webkit-transition: opacity .5s;
+}
+
+.image-viewer__title {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 5%;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #615dec;
+  text-align: center;
+}
+
+.image-viewer__switch {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  bottom: 4%;
+  right: 4%;
+  background-color: rgb(183, 250, 169);
+  border: none;
+  border-radius: 50%;
+  opacity: .8;
+  box-sizing: border-box;
+}
+
+.image-viewer__switch:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.image-viewer__switch img {
+  margin: 20%;
+  width: 60%;
+  height: 60%;
+}
+
+.image-viewer__button {
+  position: absolute;
+  width: 6%;
+  height: 6%;
+  top: 47%;
+  background: none;
+  border: none;
+  border-radius: 50%;
+}
+
+.image-viewer__button--left {
+  left: 2%;
+}
+
+.image-viewer__button--right {
+  right: 2%;
+}
+
+.image-viewer__button img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.image-viewer__button img:hover {
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.image-viewer__button:focus {
+  outline: none;
+}
+
+.image-viewer__source {
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  bottom: 1%;
+  background-color: rgba(197, 197, 197, 0.514);
+  border: none;
+  font-size: 20px;
+  font-style: italic;
+  color: #2f2f2f;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.image-viewer__display-source-wrapper {
+  position: absolute;
+  font-size: 12px;
+  left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100em;
+  text-align: center;
+  bottom: 0;
+}
+
+.disabled {
+  opacity: 0.2;
+}
+
+.disabled:hover {
+  border-color: transparent !important;
+}
