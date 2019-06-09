@@ -1,0 +1,19 @@
+.disable {
+  display: none;
+}
+
+.able {
+  display: default;
+}
+
+.Post {
+  margin: 10px;
+}
+
+.Head {
+  background-color: rgb(182, 174, 174);
+}
+
+.button {
+  border-radius: 5px;
+}

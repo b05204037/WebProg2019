@@ -1,0 +1,11 @@
+.title {
+  text-align: center;
+  margin: 50px;
+  color: rgb(37, 37, 37);
+  background-color: rgb(182, 174, 174);
+  width: 100%;
+}
+
+.form {
+  padding: 50px;
+}
